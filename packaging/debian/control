@@ -1,12 +1,9 @@
-Source: lh-abuse-sentinel
+Package: lh-abuse-sentinel
+Version: 0.1.0
 Section: utils
 Priority: optional
-Maintainer: Sameer Tawade <ops@logihertz.com>
-Standards-Version: 4.6.2
-Homepage: https://www.logihertz.com
-
-Package: lh-abuse-sentinel
 Architecture: all
-Depends: ${misc:Depends}
+Maintainer: Sameer Tawade <ops@logihertz.com>
+Homepage: https://www.logihertz.com
 Description: lh-abuse - Token Bucket Replenishment & Shannon Credential Entropy
  Enterprise zero-dependency API rate-limiting, token-bucket burst, exponential account lockout, and bivariate entropy credential-stuffing telemetry verification engine with OASIS SARIF v2.1.0 export.
